@@ -1,7 +1,7 @@
 # device-concord4
 Concord 4 SmartThings Device Hander and SmartApp
 
-This is a project for connecting the Concord 4 alarm system to SmartThings.  You will need a computer/rasperry pi/etc with a USB serial cable connected to the superbus 2000 automation module.
+This is a project for connecting the Concord 4 alarm system to SmartThings.  You will need a computer/rasperry pi/etc with a USB-to-Serial cable connected to the SuperBus 2000 Automation Module.
 
 ## Prerequisites
 
