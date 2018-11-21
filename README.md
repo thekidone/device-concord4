@@ -5,8 +5,8 @@ This is a project for connecting the Concord 4 alarm system to SmartThings.  You
 
 ## Prerequisites
 
- - Hardware (Concord 4 or equivalent panel) with a Superbus 2000 automation module attached to it
- - RS232 connection (to the AM panel)
+ - Hardware (Concord 4 or equivalent panel) with a Superbus 2000 Automation Module (AM) attached to it
+ - RS232 connection (to the AM panel - USB to Serial Cable is needed)
  - Python 2.7
  - Python packages: requests, future, pyserial (pip install)
  - Raspberry Pi (recommended)
@@ -15,7 +15,7 @@ This is a project for connecting the Concord 4 alarm system to SmartThings.  You
 
  1. Download all files from this repository
  2. Login to https://graph.api.smartthings.com/
- 3. Click **My Locations**, then click on a location. This will change the URL to something like http://graph-xx.api.smartthings.com/ which is the one you should work with
+ 3. Click **My Locations**, then click on a location. This will change the URL to something like http://graph-ccnn-ccccccn.api.smartthings.com/ which is the one you should work with
  4. Click **My Device Handlers** 
  5. Click **Create New Device Handler**
  6. Click **From Code** and paste in the contents of all the *.groovy* files in in *st-devicehandler* folder (repeat steps 3-7 for each of them)
