@@ -15,7 +15,7 @@ This is a project for connecting the Concord 4 alarm system to SmartThings.  You
 
  1. Download all files from this repository
  2. Login to https://graph.api.smartthings.com/
- 3. Click **My Locations**, then click on a location. This will change the URL to something like http://graph-ccnn-ccccccn.api.smartthings.com/ which is the one you should work with
+ 3. Click **My Locations**, then click on a location. This will change the URL to something like http://graph-ccnn-ccccccn.api.smartthings.com/ which is the one you should work with (c = character; n = numeric).  Signifies the ccnn-ccccccn AWS shard that you're going to access.  Generally, newer users will access the 'na02-useast1' shard.
  4. Click **My Device Handlers** 
  5. Click **Create New Device Handler**
  6. Click **From Code** and paste in the contents of all the *.groovy* files in in *st-devicehandler* folder (repeat steps 3-7 for each of them)
